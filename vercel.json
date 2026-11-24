@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.mjs": {
-      "includeFiles": "{data/**,public/**}"
-    }
-  },
   "rewrites": [
     {
+      "source": "/api/ping",
+      "destination": "/api/ping.js"
+    },
+    {
       "source": "/api/(.*)",
-      "destination": "/api/index.mjs"
+      "destination": "/api/index.js"
     },
     {
       "source": "/",

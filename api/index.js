@@ -23,8 +23,7 @@ async function getApp() {
 
 export default async function handler(req, res) {
   try {
-    // If Vercel rewrote the path, normalize req.url
-    if (req.url === '/api/index.mjs' || req.url === '/api' || !req.url.startsWith('/api')) {
+    if (req.url === '/api/index.js' || req.url === '/api' || !req.url.startsWith('/api')) {
       const original = req.headers['x-matched-path'] || req.headers['x-now-route-matches'];
       if (original && original.startsWith('/api')) {
         req.url = original;
