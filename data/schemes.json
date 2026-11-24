@@ -1,0 +1,750 @@
+[
+  {
+    "id": "pmmy",
+    "num": 1,
+    "name": "PMMY - Mudra Loan (PM Mudra Yojana)",
+    "shortName": "Mudra Loan",
+    "kind": "loan",
+    "status": "open",
+    "statusNote": "Live scheme applied through participating banks and NBFCs, with MUDRA and JanSamarth portals listed.",
+    "maxAmountText": "Up to ₹20 lakh",
+    "maxAmountValue": 2000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small"
+    ],
+    "purpose": "Small business finance for eligible income-generating activities.",
+    "purposeTags": [
+      "working-capital"
+    ],
+    "documents": [
+      "Aadhaar, PAN and KYC documents",
+      "Udyam certificate, if applicable",
+      "Business address proof and registration documents",
+      "Bank statements and business records",
+      "Project report or quotations, if required"
+    ],
+    "process": [
+      "Apply through a participating lender or eligible online channel.",
+      "Select the appropriate Mudra category and submit documents.",
+      "The lender checks credit history, business viability and repayment ability.",
+      "Complete sanction formalities if approved."
+    ],
+    "portal": "https://www.mudra.org.in/",
+    "portalNote": "Portals given: MUDRA https://www.mudra.org.in/ and JanSamarth https://www.jansamarth.in.",
+    "caution": "Categories: Shishu up to ₹50,000; Kishor above ₹50,000 to ₹5 lakh; Tarun above ₹5 lakh to ₹10 lakh; Tarun Plus above ₹10 lakh to ₹20 lakh."
+  },
+  {
+    "id": "cgtmse",
+    "num": 2,
+    "name": "CGTMSE Credit Guarantee Scheme",
+    "shortName": "Credit Guarantee Loan Cover",
+    "kind": "guarantee",
+    "status": "open",
+    "statusNote": "Live guarantee scheme with its own portal, taken by the lender on your loan application.",
+    "maxAmountText": "Eligible credit up to ₹10 crore",
+    "maxAmountValue": 100000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small"
+    ],
+    "purpose": "Eligible term loans and working-capital credit supported by a credit guarantee.",
+    "purposeTags": [
+      "working-capital",
+      "machinery",
+      "expansion"
+    ],
+    "documents": [
+      "Udyam certificate, PAN and KYC",
+      "Business registration documents",
+      "Bank statements and financial statements, as applicable",
+      "GST records, where applicable",
+      "Project report and existing loan details"
+    ],
+    "process": [
+      "Approach a participating bank or lender.",
+      "Apply for a suitable business loan and submit documents.",
+      "The lender appraises the proposal and, if eligible, seeks guarantee coverage.",
+      "Follow the lender's sanction and disbursement process."
+    ],
+    "portal": "https://www.cgtmse.in",
+    "portalNote": null,
+    "caution": "CGTMSE provides a guarantee to the lender; it does not directly lend money to the business. The guarantee ceiling is not an automatic loan entitlement."
+  },
+  {
+    "id": "pmegp",
+    "num": 3,
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "shortName": "PMEGP New Unit Loan",
+    "kind": "subsidy",
+    "status": "open",
+    "statusNote": "Live scheme applied on the KVIC PMEGP portal, with subsidy processed under scheme rules.",
+    "maxAmountText": "Project cost: manufacturing up to ₹50 lakh; services up to ₹20 lakh",
+    "maxAmountValue": 5000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro"
+    ],
+    "purpose": "Bank finance and margin-money subsidy for eligible new micro-enterprises.",
+    "purposeTags": [
+      "machinery",
+      "startup",
+      "expansion"
+    ],
+    "documents": [
+      "Aadhaar, PAN, photograph and bank details",
+      "Project report",
+      "Educational qualification certificate, where required",
+      "Category/rural-area certificates, if applicable",
+      "Other documents requested by the portal or bank"
+    ],
+    "process": [
+      "Register on the PMEGP portal.",
+      "Submit the application and project report.",
+      "The implementing agency processes the proposal.",
+      "The bank assesses the loan; eligible subsidy is processed under scheme rules."
+    ],
+    "portal": "https://www.kviconline.gov.in/pmegpeportal",
+    "portalNote": null,
+    "caution": "Project cost is not the same as the bank loan amount. Subsidy depends on category, location and applicable guidelines."
+  },
+  {
+    "id": "sidbi-business-loans",
+    "num": 4,
+    "name": "SIDBI Business Loans",
+    "shortName": "SIDBI Loan",
+    "kind": "loan",
+    "status": "open",
+    "statusNote": "Live lender with its own portal; limits are product-specific, so there is no single maximum amount.",
+    "maxAmountText": "Product-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Eligible machinery, expansion, working-capital, modernisation and other business finance.",
+    "purposeTags": [
+      "machinery",
+      "expansion",
+      "working-capital"
+    ],
+    "documents": [
+      "Udyam, PAN and KYC",
+      "Business constitution documents",
+      "Bank statements and ITRs, where applicable",
+      "Financial statements",
+      "Project report, cash-flow projections and quotations",
+      "Security documents, if required"
+    ],
+    "process": [
+      "Select a relevant SIDBI product.",
+      "Apply online or through the relevant channel.",
+      "Submit financial and legal documents.",
+      "Complete credit/project appraisal and sanction formalities."
+    ],
+    "portal": "https://www.sidbi.in",
+    "portalNote": "Choose the relevant SIDBI product first; amount and conditions are set product by product.",
+    "caution": "There is no single maximum amount applicable to all SIDBI products."
+  },
+  {
+    "id": "bank-term-loan",
+    "num": 5,
+    "name": "Regular Bank Term Loan",
+    "shortName": "Bank Term Loan",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Ordinary bank product, available from banks but with bank-specific amounts and terms.",
+    "maxAmountText": "Bank-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Machinery, expansion, renovation, equipment and other capital expenditure.",
+    "purposeTags": [
+      "machinery",
+      "equipment",
+      "expansion"
+    ],
+    "documents": [
+      "PAN and identity/address proof",
+      "Udyam and business registration documents",
+      "Bank statements, ITRs and financial statements, as applicable",
+      "Project report and equipment quotations",
+      "Collateral/security papers, if required"
+    ],
+    "process": [
+      "Select a bank and suitable term-loan product.",
+      "Submit the application and documents.",
+      "Complete credit appraisal and any security checks.",
+      "Meet sanction conditions; the bank disburses if approved."
+    ],
+    "portal": "https://sbi.bank.in/",
+    "portalNote": "Examples given by the source: https://sbi.bank.in/ and https://www.bankofbaroda.in - apply with the bank you choose.",
+    "caution": "Loan amount, rate, tenure and collateral requirements vary by lender."
+  },
+  {
+    "id": "working-capital-cash-credit-overdraft",
+    "num": 6,
+    "name": "Working Capital / Cash Credit / Overdraft",
+    "shortName": "Working Capital Limit",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Everyday bank credit facility; the limit is fixed by the bank after assessing your business.",
+    "maxAmountText": "Bank-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Stock, raw materials, supplier payments, salaries and daily operating expenses.",
+    "purposeTags": [
+      "working-capital"
+    ],
+    "documents": [
+      "Udyam and KYC",
+      "Bank statements",
+      "Sales and purchase records",
+      "GST returns, where applicable",
+      "Stock/debtor statements, if requested",
+      "Financial statements and existing borrowing details"
+    ],
+    "process": [
+      "Estimate the working-capital requirement.",
+      "Apply to the bank and submit records.",
+      "The bank assesses cash flow and working-capital needs.",
+      "The bank sets the limit and terms if approved."
+    ],
+    "portal": null,
+    "portalNote": "Apply through the selected bank's official website or branch.",
+    "caution": "Cash credit and overdraft are credit facilities; their limits are assessed by the lender."
+  },
+  {
+    "id": "treds-invoice-financing",
+    "num": 7,
+    "name": "Invoice Financing / TReDS",
+    "shortName": "Invoice Financing",
+    "kind": "invoice-financing",
+    "status": "open",
+    "statusNote": "Live online platform where financiers bid on your unpaid invoices; funds depend on invoice value and offers.",
+    "maxAmountText": "Based on eligible invoices and financier offer",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small"
+    ],
+    "purpose": "Finance against eligible unpaid business invoices.",
+    "purposeTags": [
+      "working-capital"
+    ],
+    "documents": [
+      "Udyam and KYC",
+      "Invoices and purchase orders",
+      "Delivery/acceptance evidence",
+      "Buyer details and bank information",
+      "Additional platform-required documents"
+    ],
+    "process": [
+      "Register on a participating TReDS platform.",
+      "Upload an eligible invoice.",
+      "The buyer confirms the invoice.",
+      "Financiers make offers; accept an offer to receive funds under agreed terms."
+    ],
+    "portal": "https://www.rxil.in",
+    "portalNote": "Portal listed as RXIL, a participating TReDS platform; platform/product rules apply.",
+    "caution": "TReDS is a financing platform, not itself a government loan or subsidy."
+  },
+  {
+    "id": "stand-up-india",
+    "num": 8,
+    "name": "Stand-Up India",
+    "shortName": "Stand-Up India Loan",
+    "kind": "loan",
+    "status": "confirm",
+    "statusNote": "The source lists only the historical limit and says to verify the current application window before presenting it as open.",
+    "maxAmountText": "Historical scheme limit: ₹10 lakh to ₹1 crore; verify current availability",
+    "maxAmountValue": 10000000,
+    "minAmountValue": 1000000,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Historically supported eligible greenfield enterprises promoted by women and SC/ST entrepreneurs.",
+    "purposeTags": [
+      "startup"
+    ],
+    "documents": [
+      "PAN, identity and address proof",
+      "Category certificate, where applicable",
+      "Business constitution and ownership details",
+      "Project report and promoter-contribution details",
+      "Bank statements and quotations, where applicable"
+    ],
+    "process": [
+      "Check current scheme availability and guidelines.",
+      "Approach a participating bank or official channel.",
+      "Submit the proposal and documents.",
+      "Complete appraisal and sanction requirements."
+    ],
+    "portal": "https://www.standupmitra.in",
+    "portalNote": null,
+    "caution": "Verify the current application window before presenting this as open for new applications."
+  },
+  {
+    "id": "micro-enterprise-credit-card",
+    "num": 9,
+    "name": "Micro-enterprise Credit Card (Budget 2025 announcement)",
+    "shortName": "Micro Credit Card",
+    "kind": "bank-product",
+    "status": "announced",
+    "statusNote": "Announced in Budget 2025 with a ₹5 lakh limit; it is not an automatic entitlement and lender availability must be checked.",
+    "maxAmountText": "Announced limit: ₹5 lakh",
+    "maxAmountValue": 500000,
+    "minAmountValue": null,
+    "categories": [
+      "micro"
+    ],
+    "purpose": "Business-related credit needs for eligible Udyam-registered micro-enterprises.",
+    "purposeTags": [
+      "working-capital"
+    ],
+    "documents": [
+      "Udyam details",
+      "PAN and KYC",
+      "Bank and credit information required by issuer",
+      "Other documents requested by participating lender"
+    ],
+    "process": [
+      "Check whether a participating bank offers the product.",
+      "Apply through the lender.",
+      "Submit Udyam and KYC details.",
+      "The issuer verifies eligibility and sets any approved limit."
+    ],
+    "portal": null,
+    "portalNote": "Check participating-bank availability and current official announcements.",
+    "caution": "The ₹5 lakh limit was announced in Budget 2025; it is not an automatic entitlement."
+  },
+  {
+    "id": "pm-vishwakarma",
+    "num": 10,
+    "name": "PM Vishwakarma Scheme",
+    "shortName": "Vishwakarma Artisan Loan",
+    "kind": "loan",
+    "status": "open",
+    "statusNote": "Live scheme registered through Common Service Centres, with credit in two tranches.",
+    "maxAmountText": "Up to ₹3 lakh: first tranche ₹1 lakh; second tranche ₹2 lakh",
+    "maxAmountValue": 300000,
+    "minAmountValue": null,
+    "categories": [
+      "micro"
+    ],
+    "purpose": "Concessional credit and other support for eligible traditional artisans and craftspeople.",
+    "purposeTags": [
+      "artisan"
+    ],
+    "documents": [
+      "Aadhaar and mobile number",
+      "Bank details",
+      "Ration card and/or other verification documents as required",
+      "Trade and identity details"
+    ],
+    "process": [
+      "Visit a participating Common Service Centre (CSC).",
+      "Complete Aadhaar-based authentication and registration.",
+      "Select the eligible traditional trade.",
+      "Complete verification and apply for the applicable credit tranche."
+    ],
+    "portal": "https://pmvishwakarma.gov.in",
+    "portalNote": null,
+    "caution": "Beneficiary interest rate is 5%, subject to scheme rules."
+  },
+  {
+    "id": "pm-svanidhi",
+    "num": 11,
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "shortName": "Street Vendor Loan",
+    "kind": "loan",
+    "status": "open",
+    "statusNote": "Live scheme for street vendors, with the source recording the lending period extended to 31 March 2030.",
+    "maxAmountText": "Tranches up to ₹15,000, ₹25,000 and ₹50,000",
+    "maxAmountValue": 50000,
+    "minAmountValue": null,
+    "categories": [
+      "micro"
+    ],
+    "purpose": "Working capital for eligible street vendors.",
+    "purposeTags": [
+      "street-vendor",
+      "working-capital"
+    ],
+    "documents": [
+      "Vendor identification/certificate of vending or letter of recommendation, as applicable",
+      "Aadhaar or accepted KYC",
+      "Mobile number and bank details"
+    ],
+    "process": [
+      "Check eligibility with the local urban authority or scheme portal.",
+      "Submit application and vendor/KYC documents.",
+      "The lender verifies eligibility.",
+      "Receive and repay the approved tranche under its terms."
+    ],
+    "portal": "https://pmsvanidhi.mohua.gov.in",
+    "portalNote": null,
+    "caution": "The scheme's lending period has been extended to 31 March 2030; verify current tranche rules before applying."
+  },
+  {
+    "id": "mcgs-msme",
+    "num": 12,
+    "name": "Mutual Credit Guarantee Scheme for MSMEs (MCGS-MSME)",
+    "shortName": "Machinery Guarantee Scheme",
+    "kind": "guarantee",
+    "status": "open",
+    "statusNote": "Live guarantee scheme routed through participating lending institutions.",
+    "maxAmountText": "Eligible credit up to ₹100 crore",
+    "maxAmountValue": 1000000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Credit for eligible purchase of plant, machinery and equipment.",
+    "purposeTags": [
+      "machinery",
+      "equipment"
+    ],
+    "documents": [
+      "Udyam, PAN and KYC",
+      "Business constitution documents",
+      "Machinery/equipment quotations",
+      "Project report, bank statements and financial records"
+    ],
+    "process": [
+      "Approach a participating lending institution.",
+      "Submit the equipment-finance proposal.",
+      "The lender checks eligibility and viability.",
+      "Eligible guarantee coverage and loan sanction are processed by the lender."
+    ],
+    "portal": "https://www.ncgtc.in",
+    "portalNote": null,
+    "caution": "₹100 crore is a credit ceiling under the scheme, not a guaranteed loan amount to every business."
+  },
+  {
+    "id": "export-working-capital-finance",
+    "num": 13,
+    "name": "Export Working Capital Finance",
+    "shortName": "Export Finance",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Live export-finance product from EXIM Bank and commercial banks; limits are lender-specific.",
+    "maxAmountText": "Lender-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Eligible financing for export production, shipment preparation and export transactions.",
+    "purposeTags": [
+      "export",
+      "working-capital"
+    ],
+    "documents": [
+      "Importer Exporter Code (IEC)",
+      "Export order or letter of credit",
+      "Invoices and shipment documents, as applicable",
+      "PAN/KYC, Udyam, bank statements and financial records"
+    ],
+    "process": [
+      "Approach an authorised bank or export-finance provider.",
+      "Submit the export order and finance request.",
+      "The lender verifies transaction and business finances.",
+      "Complete sanction formalities and use funds for the approved purpose."
+    ],
+    "portal": "https://www.eximbankindia.in/",
+    "portalNote": "Portal listed as EXIM Bank https://www.eximbankindia.in/ or participating commercial banks.",
+    "caution": "Limits and product eligibility depend on the lender and export transaction."
+  },
+  {
+    "id": "cgse",
+    "num": 14,
+    "name": "Credit Guarantee Scheme for Exporters (CGSE)",
+    "shortName": "Exporter Guarantee Scheme",
+    "kind": "guarantee",
+    "status": "confirm",
+    "statusNote": "The source gives no fixed amount and says scheme guidelines and availability must be checked with the participating lender.",
+    "maxAmountText": "Additional credit support may be available under scheme limits; confirm operative guidelines",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Additional credit support for eligible exporters under the notified scheme.",
+    "purposeTags": [
+      "export",
+      "working-capital"
+    ],
+    "documents": [
+      "IEC and export evidence",
+      "Existing working-capital sanction",
+      "PAN/KYC and financial statements",
+      "Bank-required documents"
+    ],
+    "process": [
+      "Contact the existing working-capital lender.",
+      "Ask whether the facility qualifies under the scheme.",
+      "Submit the export records and additional-credit request.",
+      "The lender checks eligibility and processes any applicable guarantee coverage."
+    ],
+    "portal": "https://www.ncgtc.in",
+    "portalNote": "Accessed through participating banks; scheme information at https://www.ncgtc.in.",
+    "caution": "Scheme guidelines and availability should be checked with the participating lender before advertising a specific limit."
+  },
+  {
+    "id": "pmfme",
+    "num": 15,
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "shortName": "Food Processing Subsidy",
+    "kind": "subsidy",
+    "status": "open",
+    "statusNote": "Live credit-linked subsidy scheme; the source says subsidy and application availability depend on current guidelines.",
+    "maxAmountText": "Credit-linked subsidy generally 35% of eligible project cost, capped at ₹10 lakh per eligible individual unit",
+    "maxAmountValue": 1000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro"
+    ],
+    "purpose": "Formalisation, upgrading and expansion of eligible micro food-processing units.",
+    "purposeTags": [
+      "food-processing",
+      "expansion",
+      "machinery"
+    ],
+    "documents": [
+      "Aadhaar and PAN",
+      "Business proof and project report",
+      "Bank statements and equipment quotations",
+      "Relevant food-business licences and other scheme documents"
+    ],
+    "process": [
+      "Check unit and project eligibility.",
+      "Apply through the designated scheme channel.",
+      "Submit project and supporting documents.",
+      "Bank assesses the loan; eligible subsidy is processed under scheme rules."
+    ],
+    "portal": "https://pmfme.mofpi.gov.in",
+    "portalNote": null,
+    "caution": "A subsidy is not the same as a loan, and current application windows must be verified."
+  },
+  {
+    "id": "cgss",
+    "num": 16,
+    "name": "Startup Credit Guarantee Scheme (CGSS)",
+    "shortName": "Startup Guarantee Scheme",
+    "kind": "guarantee",
+    "status": "open",
+    "statusNote": "Live guarantee scheme for DPIIT-recognised startups, reached through eligible lending institutions.",
+    "maxAmountText": "Eligible credit guarantee up to ₹20 crore (scheme ceiling; not automatic credit)",
+    "maxAmountValue": 200000000,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Credit guarantee support for eligible DPIIT-recognised startups.",
+    "purposeTags": [
+      "startup"
+    ],
+    "documents": [
+      "DPIIT startup recognition",
+      "PAN and incorporation documents",
+      "Business plan and financial statements",
+      "Bank records and lender-required documents"
+    ],
+    "process": [
+      "Check startup recognition and scheme eligibility.",
+      "Approach an eligible lending institution.",
+      "Submit the loan proposal and documents.",
+      "Lender assesses the proposal and processes eligible guarantee coverage."
+    ],
+    "portal": "https://www.startupindia.gov.in",
+    "portalNote": null,
+    "caution": "Guarantee coverage is not a direct loan or a guarantee that the lender will approve a specific amount."
+  },
+  {
+    "id": "machinery-equipment-loan",
+    "num": 17,
+    "name": "Machinery and Equipment Loan",
+    "shortName": "Machinery Loan",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Available from SIDBI or a participating bank as an ordinary equipment-finance product.",
+    "maxAmountText": "Lender-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Purchase or upgrade business machinery and equipment.",
+    "purposeTags": [
+      "machinery",
+      "equipment"
+    ],
+    "documents": [
+      "Udyam, PAN and KYC",
+      "Machinery quotation",
+      "Business financials and bank statements",
+      "Project report and other lender-required documents"
+    ],
+    "process": [
+      "Obtain a supplier quotation.",
+      "Apply for equipment finance.",
+      "Submit the quotation and financial records.",
+      "The lender appraises the proposal and disburses if sanctioned."
+    ],
+    "portal": "https://www.sidbi.in/",
+    "portalNote": "Source lists SIDBI https://www.sidbi.in/ or a participating bank.",
+    "caution": "This is a bank product category, not one single government scheme."
+  },
+  {
+    "id": "commercial-vehicle-loan",
+    "num": 18,
+    "name": "Commercial Vehicle Loan",
+    "shortName": "Vehicle Loan",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Ordinary vehicle-finance product offered by banks and selected vehicle-finance lenders.",
+    "maxAmountText": "Lender-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Purchase of eligible commercial vehicles for business use.",
+    "purposeTags": [
+      "vehicle"
+    ],
+    "documents": [
+      "PAN/KYC and Udyam",
+      "Bank statements and ITRs, where applicable",
+      "Vehicle quotation",
+      "Business proof and other lender-required documents"
+    ],
+    "process": [
+      "Select a commercial vehicle.",
+      "Apply through a lender.",
+      "Submit business and vehicle documents.",
+      "Complete appraisal, margin, registration and insurance formalities."
+    ],
+    "portal": "https://www.bankofbaroda.in/",
+    "portalNote": "Source lists Bank of Baroda https://www.bankofbaroda.in/ or a selected vehicle-finance lender.",
+    "caution": "Loan amount and terms depend on the lender and vehicle."
+  },
+  {
+    "id": "purchase-order-finance",
+    "num": 19,
+    "name": "Purchase Order Finance",
+    "shortName": "Order Finance",
+    "kind": "bank-product",
+    "status": "confirm",
+    "statusNote": "The source warns that availability depends on the provider and not all banks offer purchase-order finance.",
+    "maxAmountText": "Provider-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Finance raw materials or costs to fulfil a confirmed customer order.",
+    "purposeTags": [
+      "working-capital"
+    ],
+    "documents": [
+      "Confirmed purchase order",
+      "Customer details and supplier quotations",
+      "Udyam, PAN/KYC",
+      "Bank statements and financial records"
+    ],
+    "process": [
+      "Submit the purchase order and fulfilment-cost estimate.",
+      "Financier verifies the order and customer.",
+      "The provider assesses business viability and repayment source.",
+      "Funds are released if the facility is approved."
+    ],
+    "portal": null,
+    "portalNote": "Apply through a bank or eligible business-finance provider.",
+    "caution": "Availability depends on the provider; not all banks offer purchase-order finance."
+  },
+  {
+    "id": "trader-business-loan",
+    "num": 20,
+    "name": "Business Loan for Traders and Retailers",
+    "shortName": "Trader Business Loan",
+    "kind": "bank-product",
+    "status": "open",
+    "statusNote": "Broad bank-product category sold by banks such as SBI; limits and terms vary by lender.",
+    "maxAmountText": "Lender-specific",
+    "maxAmountValue": null,
+    "minAmountValue": null,
+    "categories": [
+      "micro",
+      "small",
+      "medium"
+    ],
+    "purpose": "Eligible business expenses, inventory, expansion and operating needs.",
+    "purposeTags": [
+      "working-capital",
+      "expansion"
+    ],
+    "documents": [
+      "PAN/KYC and Udyam",
+      "Shop/business proof",
+      "Bank statements and sales records",
+      "GST returns, where applicable",
+      "Financial statements and other lender-required documents"
+    ],
+    "process": [
+      "Select a suitable trader/business loan.",
+      "Submit the application and documents.",
+      "The lender checks turnover, cash flow and existing liabilities.",
+      "Complete appraisal and sanction requirements."
+    ],
+    "portal": "https://sbi.bank.in/",
+    "portalNote": "Source lists SBI https://sbi.bank.in/ or the selected bank's official business-loan portal.",
+    "caution": "This is a broad bank-product category; limits and terms vary by lender."
+  },
+  {
+    "id": "_meta",
+    "num": null,
+    "financialYear": "FY 2025-26",
+    "source": "MSME Loans & Credit Schemes - Avishkaar reference (FY 2025-26)",
+    "lastVerified": "2026-10-24",
+    "safeguards": [
+      "Show whether a product is currently open for applications, announced but awaiting implementation, or subject to confirmation.",
+      "Store the official portal, lender, last-verified date, eligibility conditions, documents and source for each product.",
+      "Separate direct loans from credit-guarantee schemes, subsidies, invoice financing and ordinary bank products.",
+      "Do not promise approval, a specific interest rate or a maximum loan amount unless confirmed by the lender.",
+      "Collect only necessary personal and financial documents, obtain user consent, and protect sensitive information.",
+      "Make clear that the bank/lender makes the final credit decision."
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+# SQLite database and runtime state
+data/udisa.db*
+data/runtime.json
+debug.log
+
+# Dependencies and build outputs
+node_modules/
+.env
+.env.*
+.vercel/
+
+# OS generated files
+.DS_Store
+Thumbs.db

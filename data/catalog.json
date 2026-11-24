@@ -1,0 +1,781 @@
+{
+  "organisationTypes": [
+    {
+      "id": "proprietorship",
+      "en": "Proprietorship",
+      "hi": "एकस्वामी उद्यम",
+      "short": "One owner - you decide",
+      "icon": "👤"
+    },
+    {
+      "id": "partnership",
+      "en": "Partnership firm",
+      "hi": "साझेदारी फर्म",
+      "short": "Two or more partners",
+      "icon": "🤝"
+    },
+    {
+      "id": "company",
+      "en": "Indian Company",
+      "hi": "भारतीय कंपनी",
+      "short": "Private or public limited",
+      "icon": "🏢"
+    },
+    {
+      "id": "live-enterprise",
+      "en": "Live Enterprise",
+      "hi": "लाइव उद्यम",
+      "short": "Registered abroad, works in India",
+      "icon": "🌐"
+    },
+    {
+      "id": "registered-society",
+      "en": "Registered Society",
+      "hi": "पंजीकृत समाज",
+      "short": "Society registered under law",
+      "icon": "👥"
+    },
+    {
+      "id": "trust",
+      "en": "Trust",
+      "hi": "न्यास (ट्रस्ट)",
+      "short": "Charitable or family trust",
+      "icon": "🕊️"
+    },
+    {
+      "id": "association-of-persons",
+      "en": "Association of Persons",
+      "hi": "व्यक्तियों का संघ",
+      "short": "Group of people, not a firm",
+      "icon": "🧑‍🤝‍"
+    },
+    {
+      "id": "others",
+      "en": "Others (including Joint Venture)",
+      "hi": "अन्य (संयुक्त उद्यम सहित)",
+      "short": "Joint venture or anything else",
+      "icon": "➕"
+    }
+  ],
+  "activities": [
+    {
+      "id": "manufacturing",
+      "en": "Manufacturing",
+      "hi": "उत्पादन",
+      "short": "You make things",
+      "icon": "🏭"
+    },
+    {
+      "id": "trading",
+      "en": "Trading",
+      "hi": "व्यापार",
+      "short": "You buy and sell goods",
+      "icon": "🏪"
+    },
+    {
+      "id": "services",
+      "en": "Services",
+      "hi": "सेवाएँ",
+      "short": "You do work for others",
+      "icon": "🛠️"
+    },
+    {
+      "id": "both-manufacturing-and-services",
+      "en": "Manufacturing and Services",
+      "hi": "उत्पादन और सेवाएँ दोनों",
+      "short": "You make things and do work",
+      "icon": "🏭️"
+    }
+  ],
+  "nicSections": [
+    {
+      "code": "A",
+      "en": "Agriculture and forestry",
+      "hi": "कृषि और वन"
+    },
+    {
+      "code": "B",
+      "en": "Mining and quarrying",
+      "hi": "खनन और उत्खनन"
+    },
+    {
+      "code": "C",
+      "en": "Manufacturing",
+      "hi": "विनिर्माण"
+    },
+    {
+      "code": "D",
+      "en": "Electricity, gas, steam and air conditioning supply",
+      "hi": "बिजली, गैस, भाप और एयर कंडीशनिंग"
+    },
+    {
+      "code": "E",
+      "en": "Water supply, sewerage, waste management",
+      "hi": "जल आपूर्ति, सीवेज और कचरा प्रबंधन"
+    },
+    {
+      "code": "F",
+      "en": "Construction",
+      "hi": "निर्माण कार्य"
+    },
+    {
+      "code": "G",
+      "en": "Wholesale and retail trade; repair of motor vehicles",
+      "hi": "थोक और खुदरा व्यापार; वाहन मरम्मत"
+    },
+    {
+      "code": "H",
+      "en": "Transportation and storage",
+      "hi": "परिवहन और भंडारण"
+    },
+    {
+      "code": "I",
+      "en": "Accommodation and food service activities",
+      "hi": "आतिथ्य और भोजन सेवा"
+    },
+    {
+      "code": "J",
+      "en": "Information and communication",
+      "hi": "सूचना और संचार"
+    },
+    {
+      "code": "K",
+      "en": "Financial and insurance activities",
+      "hi": "वित्तीय और बीमा गतिविधियाँ"
+    },
+    {
+      "code": "L",
+      "en": "Real estate activities",
+      "hi": "अचल संपत्ति"
+    },
+    {
+      "code": "M",
+      "en": "Professional, scientific and technical activities",
+      "hi": "व्यावसायिक, वैज्ञानिक और तकनीकी"
+    },
+    {
+      "code": "N",
+      "en": "Administrative and support service activities",
+      "hi": "प्रशासनिक और सहायक सेवाएँ"
+    },
+    {
+      "code": "O",
+      "en": "Public administration and defence",
+      "hi": "सार्वजनिक प्रशासन और रक्षा"
+    },
+    {
+      "code": "P",
+      "en": "Education",
+      "hi": "शिक्षा"
+    },
+    {
+      "code": "Q",
+      "en": "Human health and social work activities",
+      "hi": "मानव स्वास्थ्य और सामाजिक कार्य"
+    },
+    {
+      "code": "R",
+      "en": "Arts, entertainment and recreation",
+      "hi": "कला, मनोरंजन और अवकाश"
+    },
+    {
+      "code": "S",
+      "en": "Other service activities",
+      "hi": "अन्य सेवा गतिविधियाँ"
+    },
+    {
+      "code": "T",
+      "en": "Activities of households as employers",
+      "hi": "घरेलू नियोक्ता गतिविधियाँ"
+    },
+    {
+      "code": "U",
+      "en": "Activities of extraterritorial organisations",
+      "hi": "अंतर्राष्ट्रीय संगठनों की गतिविधियाँ"
+    }
+  ],
+  "enterpriseSizes": [
+    {
+      "id": "micro",
+      "en": "Micro",
+      "hi": "सूक्ष्म",
+      "maxInvestment": 25000000,
+      "maxTurnover": 100000000,
+      "explain": "Investment up to ₹2.5 crore and turnover up to ₹10 crore."
+    },
+    {
+      "id": "small",
+      "en": "Small",
+      "hi": "लघु",
+      "maxInvestment": 250000000,
+      "maxTurnover": 1000000000,
+      "explain": "Investment up to ₹25 crore and turnover up to ₹100 crore."
+    },
+    {
+      "id": "medium",
+      "en": "Medium",
+      "hi": "मध्यम",
+      "maxInvestment": 1250000000,
+      "maxTurnover": 5000000000,
+      "explain": "Investment up to ₹125 crore and turnover up to ₹500 crore."
+    }
+  ],
+  "sizeNote": "MSME classification effective 1 April 2025.",
+  "incomeCategories": [
+    {
+      "id": "cash-sale",
+      "en": "Cash sale",
+      "hi": "नकद बिक्री",
+      "icon": "💵"
+    },
+    {
+      "id": "credit-sale",
+      "en": "Sale on credit (udhaar)",
+      "hi": "उधार पर बिक्री",
+      "icon": "📒"
+    },
+    {
+      "id": "service-charge",
+      "en": "Service charge",
+      "hi": "सेवा शुल्क",
+      "icon": "🛠️"
+    },
+    {
+      "id": "advance-received",
+      "en": "Advance received",
+      "hi": "एडवांस प्राप्त",
+      "icon": "🙏"
+    },
+    {
+      "id": "commission-received",
+      "en": "Commission received",
+      "hi": "कमीशन प्राप्त",
+      "icon": "🤝"
+    },
+    {
+      "id": "export-sale",
+      "en": "Export sale",
+      "hi": "निर्यात बिक्री",
+      "icon": "🚢"
+    },
+    {
+      "id": "scrap-sale",
+      "en": "Scrap or leftover sale",
+      "hi": "कबाड़ बिक्री",
+      "icon": "♻️"
+    },
+    {
+      "id": "credit-received",
+      "en": "Udhaar money collected",
+      "hi": "बकाया वसूली (पैसे लिए)",
+      "icon": "💰"
+    },
+    {
+      "id": "other-income",
+      "en": "Other income",
+      "hi": "अन्य आय",
+      "icon": "➕"
+    }
+  ],
+  "expenseCategories": [
+    {
+      "id": "stock-purchase",
+      "en": "Goods or raw material purchase",
+      "hi": "माल / कच्चा माल खरीद",
+      "icon": "📦"
+    },
+    {
+      "id": "rent",
+      "en": "Shop or office rent",
+      "hi": "दुकान / कार्यालय किराया",
+      "icon": "🏬"
+    },
+    {
+      "id": "salaries",
+      "en": "Salary and wages",
+      "hi": "वेतन और मजदूरी",
+      "icon": "👷"
+    },
+    {
+      "id": "electricity",
+      "en": "Electricity bill",
+      "hi": "बिजली बिल",
+      "icon": "💡"
+    },
+    {
+      "id": "fuel",
+      "en": "Fuel and gas",
+      "hi": "ईंधन और गैस",
+      "icon": "⛽"
+    },
+    {
+      "id": "transport",
+      "en": "Transport and freight",
+      "hi": "परिवहन और ढुलाई",
+      "icon": "🚚"
+    },
+    {
+      "id": "repairs",
+      "en": "Machine and shop repairs",
+      "hi": "मरम्मत",
+      "icon": "🔧"
+    },
+    {
+      "id": "equipment-rent",
+      "en": "Equipment rent",
+      "hi": "उपकरण किराया",
+      "icon": "🏗️"
+    },
+    {
+      "id": "packaging",
+      "en": "Packaging",
+      "hi": "पैकिंग",
+      "icon": "🎁"
+    },
+    {
+      "id": "bank-charges",
+      "en": "Bank charges",
+      "hi": "बैंक शुल्क",
+      "icon": "🏦"
+    },
+    {
+      "id": "interest",
+      "en": "Loan interest",
+      "hi": "ऋण ब्याज",
+      "icon": "💳"
+    },
+    {
+      "id": "tax",
+      "en": "GST and other taxes",
+      "hi": "जीएसटी और अन्य कर",
+      "icon": "🧾"
+    },
+    {
+      "id": "phone-internet",
+      "en": "Phone and internet",
+      "hi": "फोन और इंटरनेट",
+      "icon": "📶"
+    },
+    {
+      "id": "advertising",
+      "en": "Advertising",
+      "hi": "विज्ञापन",
+      "icon": "📣"
+    },
+    {
+      "id": "commission",
+      "en": "Commission paid",
+      "hi": "कमीशन दिया",
+      "icon": "🤝"
+    },
+    {
+      "id": "maintenance",
+      "en": "Shop maintenance",
+      "hi": "दुकान रखरखाव",
+      "icon": "🧹"
+    },
+    {
+      "id": "household",
+      "en": "Personal or household spend",
+      "hi": "घरेलू खर्च",
+      "icon": "🏠"
+    },
+    {
+      "id": "credit-paid",
+      "en": "Paid off money you owed",
+      "hi": "बकाया चुकाना (पैसे दिए)",
+      "icon": "↩️"
+    },
+    {
+      "id": "misc",
+      "en": "Other expense",
+      "hi": "अन्य खर्च",
+      "icon": "📝"
+    }
+  ],
+  "paymentModes": [
+    {
+      "id": "cash",
+      "en": "Cash",
+      "hi": "नकद",
+      "icon": "💵"
+    },
+    {
+      "id": "upi",
+      "en": "UPI / QR scan",
+      "hi": "यूपीआई / स्कैन",
+      "icon": "📱"
+    },
+    {
+      "id": "bank",
+      "en": "Bank transfer (NEFT/IMPS)",
+      "hi": "बैंक ट्रांसफर",
+      "icon": "🏦"
+    },
+    {
+      "id": "cheque",
+      "en": "Cheque",
+      "hi": "चेक",
+      "icon": "🧾"
+    },
+    {
+      "id": "card",
+      "en": "Debit or credit card",
+      "hi": "कार्ड",
+      "icon": "💳"
+    },
+    {
+      "id": "credit",
+      "en": "Credit (udhaar, pay later)",
+      "hi": "उधार (बाद में)",
+      "icon": "🤝"
+    },
+    {
+      "id": "other",
+      "en": "Other",
+      "hi": "अन्य",
+      "icon": "➕"
+    }
+  ],
+  "units": [
+    {
+      "id": "pcs",
+      "en": "Pieces",
+      "hi": "नग"
+    },
+    {
+      "id": "nos",
+      "en": "Numbers",
+      "hi": "संख्या"
+    },
+    {
+      "id": "kg",
+      "en": "Kilogram",
+      "hi": "किलोग्राम"
+    },
+    {
+      "id": "g",
+      "en": "Gram",
+      "hi": "ग्राम"
+    },
+    {
+      "id": "quintal",
+      "en": "Quintal",
+      "hi": "क्विंटल"
+    },
+    {
+      "id": "tonne",
+      "en": "Tonne",
+      "hi": "टन"
+    },
+    {
+      "id": "litre",
+      "en": "Litre",
+      "hi": "लीटर"
+    },
+    {
+      "id": "ml",
+      "en": "Millilitre",
+      "hi": "मिलीलीटर"
+    },
+    {
+      "id": "metre",
+      "en": "Metre",
+      "hi": "मीटर"
+    },
+    {
+      "id": "sqft",
+      "en": "Square feet",
+      "hi": "वर्ग फीट"
+    },
+    {
+      "id": "box",
+      "en": "Box",
+      "hi": "डिब्बा"
+    },
+    {
+      "id": "carton",
+      "en": "Carton",
+      "hi": "कार्टून"
+    },
+    {
+      "id": "bag",
+      "en": "Bag / sack",
+      "hi": "बोरा"
+    },
+    {
+      "id": "dozen",
+      "en": "Dozen",
+      "hi": "दर्जन"
+    },
+    {
+      "id": "pair",
+      "en": "Pair",
+      "hi": "जोड़ा"
+    },
+    {
+      "id": "roll",
+      "en": "Roll",
+      "hi": "रोल"
+    },
+    {
+      "id": "set",
+      "en": "Set",
+      "hi": "सेट"
+    },
+    {
+      "id": "day",
+      "en": "Day",
+      "hi": "दिन"
+    },
+    {
+      "id": "hour",
+      "en": "Hour",
+      "hi": "घंटा"
+    },
+    {
+      "id": "km",
+      "en": "Kilometre",
+      "hi": "किलोमीटर"
+    }
+  ],
+  "states": [
+    {
+      "code": "AN",
+      "en": "Andaman and Nicobar Islands",
+      "hi": "अंडमान और निकोबार द्वीप समूह"
+    },
+    {
+      "code": "AP",
+      "en": "Andhra Pradesh",
+      "hi": "आंध्र प्रदेश"
+    },
+    {
+      "code": "AR",
+      "en": "Arunachal Pradesh",
+      "hi": "अरुणाचल प्रदेश"
+    },
+    {
+      "code": "AS",
+      "en": "Assam",
+      "hi": "असम"
+    },
+    {
+      "code": "BR",
+      "en": "Bihar",
+      "hi": "बिहार"
+    },
+    {
+      "code": "CH",
+      "en": "Chandigarh",
+      "hi": "चंडीगढ़"
+    },
+    {
+      "code": "CT",
+      "en": "Chhattisgarh",
+      "hi": "छत्तीसगढ़"
+    },
+    {
+      "code": "DH",
+      "en": "Dadra and Nagar Haveli and Daman and Diu",
+      "hi": "दादरा और नगर हवेली तथा दमन और दीव"
+    },
+    {
+      "code": "DL",
+      "en": "Delhi",
+      "hi": "दिल्ली"
+    },
+    {
+      "code": "GA",
+      "en": "Goa",
+      "hi": "गोवा"
+    },
+    {
+      "code": "GJ",
+      "en": "Gujarat",
+      "hi": "गुजरात"
+    },
+    {
+      "code": "HP",
+      "en": "Himachal Pradesh",
+      "hi": "हिमाचल प्रदेश"
+    },
+    {
+      "code": "HR",
+      "en": "Haryana",
+      "hi": "हरियाणा"
+    },
+    {
+      "code": "JH",
+      "en": "Jharkhand",
+      "hi": "झारखंड"
+    },
+    {
+      "code": "JK",
+      "en": "Jammu and Kashmir",
+      "hi": "जम्मू और कश्मीर"
+    },
+    {
+      "code": "KA",
+      "en": "Karnataka",
+      "hi": "कर्नाटक"
+    },
+    {
+      "code": "KL",
+      "en": "Kerala",
+      "hi": "केरल"
+    },
+    {
+      "code": "LA",
+      "en": "Ladakh",
+      "hi": "लद्दाख"
+    },
+    {
+      "code": "LD",
+      "en": "Lakshadweep",
+      "hi": "लक्षद्वीप"
+    },
+    {
+      "code": "MH",
+      "en": "Maharashtra",
+      "hi": "महाराष्ट्र"
+    },
+    {
+      "code": "ML",
+      "en": "Meghalaya",
+      "hi": "मेघालय"
+    },
+    {
+      "code": "MN",
+      "en": "Manipur",
+      "hi": "मणिपुर"
+    },
+    {
+      "code": "MP",
+      "en": "Madhya Pradesh",
+      "hi": "मध्य प्रदेश"
+    },
+    {
+      "code": "MZ",
+      "en": "Mizoram",
+      "hi": "मिजोरम"
+    },
+    {
+      "code": "NL",
+      "en": "Nagaland",
+      "hi": "नागालैंड"
+    },
+    {
+      "code": "OD",
+      "en": "Odisha",
+      "hi": "ओडिशा"
+    },
+    {
+      "code": "PY",
+      "en": "Puducherry",
+      "hi": "पुडुचेरी"
+    },
+    {
+      "code": "PB",
+      "en": "Punjab",
+      "hi": "पंजाब"
+    },
+    {
+      "code": "RJ",
+      "en": "Rajasthan",
+      "hi": "राजस्थान"
+    },
+    {
+      "code": "SK",
+      "en": "Sikkim",
+      "hi": "सिक्किम"
+    },
+    {
+      "code": "TN",
+      "en": "Tamil Nadu",
+      "hi": "तमिलनाडु"
+    },
+    {
+      "code": "TS",
+      "en": "Telangana",
+      "hi": "तेलंगाना"
+    },
+    {
+      "code": "TR",
+      "en": "Tripura",
+      "hi": "त्रिपुरा"
+    },
+    {
+      "code": "UK",
+      "en": "Uttarakhand",
+      "hi": "उत्तराखंड"
+    },
+    {
+      "code": "UP",
+      "en": "Uttar Pradesh",
+      "hi": "उत्तर प्रदेश"
+    },
+    {
+      "code": "WB",
+      "en": "West Bengal",
+      "hi": "पश्चिम बंगाल"
+    }
+  ],
+  "languages": [
+    {
+      "id": "en",
+      "en": "English",
+      "hi": "अंग्रेज़ी"
+    },
+    {
+      "id": "hi",
+      "en": "Hindi",
+      "hi": "हिन्दी"
+    },
+    {
+      "id": "ta",
+      "en": "Tamil",
+      "hi": "तमिल"
+    },
+    {
+      "id": "te",
+      "en": "Telugu",
+      "hi": "तेलुगु"
+    },
+    {
+      "id": "mr",
+      "en": "Marathi",
+      "hi": "मराठी"
+    },
+    {
+      "id": "bn",
+      "en": "Bengali",
+      "hi": "बंगाली"
+    },
+    {
+      "id": "gu",
+      "en": "Gujarati",
+      "hi": "गुजराती"
+    },
+    {
+      "id": "kn",
+      "en": "Kannada",
+      "hi": "कन्नड़"
+    },
+    {
+      "id": "ml",
+      "en": "Malayalam",
+      "hi": "मलयालम"
+    },
+    {
+      "id": "pa",
+      "en": "Punjabi",
+      "hi": "पंजाबी"
+    },
+    {
+      "id": "ur",
+      "en": "Urdu",
+      "hi": "उर्दू"
+    }
+  ]
+}

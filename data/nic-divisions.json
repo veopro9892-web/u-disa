@@ -1,0 +1,706 @@
+[
+  {
+    "code": "01",
+    "section": "A",
+    "en": "Crop and animal production, hunting and related service activities",
+    "hi": "फसल एवं पशु उत्पादन, शिकार और इनसे जुड़ी सेवा गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["farming", "agriculture", "wheat", "paddy", "sugarcane", "dairy", "cattle", "poultry"]
+  },
+  {
+    "code": "02",
+    "section": "A",
+    "en": "Forestry and logging",
+    "hi": "वन और लकड़ी कटाई (लॉगिंग) गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["forestry", "logging", "timber", "bamboo", "tendu leaf", "fuel wood", "resin", "sapling"]
+  },
+  {
+    "code": "03",
+    "section": "A",
+    "en": "Fishing and aquaculture",
+    "hi": "मत्स्य और जलसंवर्धन गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["fishing", "fish", "aquaculture", "prawn", "shrimp", "fish farm", "seafood", "hilsa"]
+  },
+  {
+    "code": "05",
+    "section": "B",
+    "en": "Mining of coal and lignite; extraction of peat",
+    "hi": "कोयला और लिग्नाइट का खनन; पीट का निष्कासन",
+    "activity": "services",
+    "keywords": ["coal", "lignite", "coal mine", "peat", "mining", "coal washing", "coking coal", "coal trader"]
+  },
+  {
+    "code": "06",
+    "section": "B",
+    "en": "Extraction of crude petroleum and natural gas",
+    "hi": "कच्चे तेल और प्राकृतिक गैस का उत्पादन",
+    "activity": "services",
+    "keywords": ["crude oil", "petroleum", "natural gas", "oil well", "gas well", "drilling", "oil exploration", "oilfield service"]
+  },
+  {
+    "code": "07",
+    "section": "B",
+    "en": "Mining of metal ores",
+    "hi": "धातु अयस्कों का खनन",
+    "activity": "services",
+    "keywords": ["iron ore", "copper", "bauxite", "gold", "silver ore", "manganese", "zinc", "ore mining"]
+  },
+  {
+    "code": "08",
+    "section": "B",
+    "en": "Other mining and quarrying",
+    "hi": "अन्य खनन और खदान उद्योग",
+    "activity": "services",
+    "keywords": ["quarry", "stone crushing", "gravel", "sand", "lime stone", "granite", "marble quarry", "feldspar"]
+  },
+  {
+    "code": "09",
+    "section": "B",
+    "en": "Mining support service activities",
+    "hi": "खनन को सहायक सेवा गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["mining support", "mining contractor", "drilling", "blasting", "mine survey", "ore testing", "exploration"]
+  },
+  {
+    "code": "10",
+    "section": "C",
+    "en": "Manufacture of food products",
+    "hi": "खाद्य पदार्थों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["food", "snacks", "pickle", "milk", "sweets", "atta", "namkeen", "flour"]
+  },
+  {
+    "code": "11",
+    "section": "C",
+    "en": "Manufacture of beverages",
+    "hi": "पेय पदार्थों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["beverage", "drinks", "mineral water", "soft drink", "soda", "fruit juice", "brewery", "water bottle"]
+  },
+  {
+    "code": "12",
+    "section": "C",
+    "en": "Manufacture of tobacco products",
+    "hi": "तम्बाकू उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["tobacco", "cigarette", "beedi", "gutka", "zarda", "chewing tobacco", "hookah", "pan masala"]
+  },
+  {
+    "code": "13",
+    "section": "C",
+    "en": "Manufacture of textiles",
+    "hi": "वस्त्र (कपड़ा) का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["textile", "fabric", "weaving", "saree", "garment", "dyeing", "yarn", "khadi"]
+  },
+  {
+    "code": "14",
+    "section": "C",
+    "en": "Manufacture of wearing apparel",
+    "hi": "परिधान (तैयार कपड़े) का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["tailoring", "stitching", "garment", "dress", "boutique", "embroidery", "readymade", "blouse"]
+  },
+  {
+    "code": "15",
+    "section": "C",
+    "en": "Manufacture of leather and related products",
+    "hi": "चमड़े और चमड़े से बने उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["leather", "shoe", "footwear", "belt", "handbag", "slipper", "tanning", "saddle"]
+  },
+  {
+    "code": "16",
+    "section": "C",
+    "en": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+    "hi": "लकड़ी और लकड़ी के उत्पादों का निर्माण (फर्नीचर के अतिरिक्त); तिनसे बनी वस्तुओं का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["wood", "carpenter", "plywood", "veneer", "sawn timber", "wood carving", "cricket bat", "cork"]
+  },
+  {
+    "code": "17",
+    "section": "C",
+    "en": "Manufacture of paper and paper products",
+    "hi": "कागज और कागज के उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["paper", "notebook", "stationery", "cardboard", "envelope", "paper mill", "writing pad", "carton"]
+  },
+  {
+    "code": "18",
+    "section": "C",
+    "en": "Printing and reproduction of recorded media",
+    "hi": "छपाई और रिकॉर्ड किए गए मीडिया की प्रतिलिपि निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["printing", "print shop", "book printing", "flex printing", "photocopy", "packaging", "calendar", "invitation card"]
+  },
+  {
+    "code": "19",
+    "section": "C",
+    "en": "Manufacture of coke and refined petroleum products",
+    "hi": "कोक और परिष्कृत पेट्रोलियम उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["refinery", "petroleum", "coke", "lubricant", "grease", "bitumen", "naphtha", "solvent"]
+  },
+  {
+    "code": "20",
+    "section": "C",
+    "en": "Manufacture of chemicals and chemical products",
+    "hi": "रसायनों और रसायन उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["chemical", "dye", "paint", "soap", "detergent", "acid", "adhesive", "ink"]
+  },
+  {
+    "code": "21",
+    "section": "C",
+    "en": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+    "hi": "दवाइयों और दवा तैयारियों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["medicine", "pharma", "drug", "tablet", "syrup", "api", "vaccine", "ayurvedic medicine"]
+  },
+  {
+    "code": "22",
+    "section": "C",
+    "en": "Manufacture of rubber and plastics products",
+    "hi": "राबर और प्लास्टिक उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["plastic", "rubber", "pvc pipe", "plastic bag", "bottle", "hose", "foam sheet", "tyre"]
+  },
+  {
+    "code": "23",
+    "section": "C",
+    "en": "Manufacture of other non-metallic mineral products",
+    "hi": "अन्य अधात्विक खनिज उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["bricks", "tiles", "cement", "glass", "sanitary ware", "pottery", "marble slab", "stone"]
+  },
+  {
+    "code": "24",
+    "section": "C",
+    "en": "Manufacture of basic metals",
+    "hi": "मूल धातुओं का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["steel", "iron", "aluminium", "foundry", "casting", "smelting", "metal", "wire rod"]
+  },
+  {
+    "code": "25",
+    "section": "C",
+    "en": "Manufacture of fabricated metal products, except machinery and equipment",
+    "hi": "मशीनरी और उपकरण के अतिरिक्त धातु से बने उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["welder", "fabrication", "gate", "grille", "aluminium", "sheet metal", "blacksmith", "truss"]
+  },
+  {
+    "code": "26",
+    "section": "C",
+    "en": "Manufacture of computer, electronic and optical products",
+    "hi": "कंप्यूटर, इलेक्ट्रॉनिक और प्रकाशीय उत्पादों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["electronics", "computer", "mobile phone", "led", "circuit board", "camera", "sensor", "semiconductor"]
+  },
+  {
+    "code": "27",
+    "section": "C",
+    "en": "Manufacture of electrical equipment",
+    "hi": "विद्युत उपकरणों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["electrical", "motor", "transformer", "wire", "cable", "switch", "battery", "generator"]
+  },
+  {
+    "code": "28",
+    "section": "C",
+    "en": "Manufacture of machinery and equipment n.e.c.",
+    "hi": "मशीनरी और उपकरणों का निर्माण (अन्यत्र वर्गीकृत नहीं)",
+    "activity": "manufacturing",
+    "keywords": ["machine", "lathe", "pump", "motor", "spares", "gearbox", "compressor", "industrial machine"]
+  },
+  {
+    "code": "29",
+    "section": "C",
+    "en": "Manufacture of motor vehicles, trailers and semi-trailers",
+    "hi": "मोटर वाहनों, ट्रेलर और अर्ध-ट्रेलर का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["auto parts", "spare parts", "vehicle", "tyre", "car", "two wheeler", "bus body", "trailer"]
+  },
+  {
+    "code": "30",
+    "section": "C",
+    "en": "Manufacture of other transport equipment",
+    "hi": "अन्य परिवहन उपकरणों का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["ship", "boat", "bicycle", "railway coach", "aircraft", "yacht", "rickshaw", "cycle"]
+  },
+  {
+    "code": "31",
+    "section": "C",
+    "en": "Manufacture of furniture",
+    "hi": "फर्नीचर का निर्माण",
+    "activity": "manufacturing",
+    "keywords": ["furniture", "chair", "sofa", "bed", "wooden", "mattress", "cupboard", "table"]
+  },
+  {
+    "code": "32",
+    "section": "C",
+    "en": "Other manufacturing",
+    "hi": "अन्य विनिर्माण गतिविधियाँ",
+    "activity": "manufacturing",
+    "keywords": ["agarbatti", "candle", "toy", "jewellery", "sports goods", "broom", "brush", "signboard"]
+  },
+  {
+    "code": "33",
+    "section": "C",
+    "en": "Repair and installation of machinery and equipment",
+    "hi": "मशीनरी और उपकरणों की मरम्मत और स्थापना",
+    "activity": "manufacturing",
+    "keywords": ["machinery repair", "pump repair", "generator repair", "elevator", "crane", "machine servicing", "installation", "industrial repair"]
+  },
+  {
+    "code": "35",
+    "section": "D",
+    "en": "Electricity, gas, steam and air conditioning supply",
+    "hi": "बिजली, गैस, भाप और वातानुकूलन की आपूर्ति",
+    "activity": "services",
+    "keywords": ["electricity", "power supply", "gas supply", "solar", "steam", "dg set", "transformer", "kwh meter"]
+  },
+  {
+    "code": "36",
+    "section": "E",
+    "en": "Water collection, treatment and supply",
+    "hi": "जल संग्रहण, शोधन और आपूर्ति",
+    "activity": "services",
+    "keywords": ["water supply", "borewell", "water treatment", "ro plant", "tanker water", "water works", "mineral water plant", "pipe line"]
+  },
+  {
+    "code": "37",
+    "section": "E",
+    "en": "Sewerage",
+    "hi": "मल-जल निकासी (सीवेरेज) सेवाएँ",
+    "activity": "services",
+    "keywords": ["sewer", "drainage", "septic tank", "desludging", "manhole", "sewage treatment", "waste water", "toilet"]
+  },
+  {
+    "code": "38",
+    "section": "E",
+    "en": "Waste collection, treatment and disposal activities; materials recovery",
+    "hi": "कचरा संग्रहण, उपचार और निपटान गतिविधियाँ; सामग्रियों की पुनर्प्राप्ति",
+    "activity": "services",
+    "keywords": ["waste", "garbage", "scrap", "recycling", "raddi", "plastic waste", "e waste", "waste collector"]
+  },
+  {
+    "code": "39",
+    "section": "E",
+    "en": "Remediation activities and other waste management services",
+    "hi": "पर्यावरण सुधार गतिविधियाँ और अन्य अपशिष्ट प्रबंधन सेवाएँ",
+    "activity": "services",
+    "keywords": ["pollution control", "environment cleanup", "site remediation", "hazardous waste", "dredging", "decontamination", "emission control"]
+  },
+  {
+    "code": "41",
+    "section": "F",
+    "en": "Construction of buildings",
+    "hi": "भवनों का निर्माण",
+    "activity": "services",
+    "keywords": ["construction", "building", "house construction", "builder", "contractor", "renovation", "developer", "mall"]
+  },
+  {
+    "code": "42",
+    "section": "F",
+    "en": "Civil engineering",
+    "hi": "सिविल अभियंत्रिकी कार्य",
+    "activity": "services",
+    "keywords": ["roads", "bridge", "canal", "dam", "earthwork", "highway", "irrigation", "pipeline laying"]
+  },
+  {
+    "code": "43",
+    "section": "F",
+    "en": "Specialised construction activities",
+    "hi": "विशिष्ट निर्माण गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["plumbing", "electrical work", "painting", "waterproofing", "tile work", "pop", "glazing", "scaffolding"]
+  },
+  {
+    "code": "45",
+    "section": "G",
+    "en": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+    "hi": "मोटर वाहनों और मोटरसाइकिलों की थोक एवं फुटकर बिक्री तथा मरम्मत",
+    "activity": "trading",
+    "keywords": ["car dealer", "showroom", "two wheeler dealer", "vehicle repair", "spare shop", "tyre shop", "garage", "bike"]
+  },
+  {
+    "code": "46",
+    "section": "G",
+    "en": "Wholesale trade, except of motor vehicles and motorcycles",
+    "hi": "थोक व्यापार, मोटर वाहनों और मोटरसाइकिलों के अतिरिक्त",
+    "activity": "trading",
+    "keywords": ["wholesale", "dealer", "distribution", "mandi", "trader", "bulk", "importer", "commission agent"]
+  },
+  {
+    "code": "47",
+    "section": "G",
+    "en": "Retail trade, except of motor vehicles and motorcycles",
+    "hi": "फुटकर व्यापार, मोटर वाहनों और मोटरसाइकिलों के अतिरिक्त",
+    "activity": "trading",
+    "keywords": ["shop", "retail", "kirana", "general store", "medical store", "provision", "supermarket", "mall"]
+  },
+  {
+    "code": "49",
+    "section": "H",
+    "en": "Land transport and transport via pipelines",
+    "hi": "भूमि परिवहन और पाइपलाइन द्वारा परिवहन",
+    "activity": "services",
+    "keywords": ["truck", "taxi", "goods vehicle", "bus", "tempo", "loader", "e rickshaw", "ambulance"]
+  },
+  {
+    "code": "50",
+    "section": "H",
+    "en": "Water transport",
+    "hi": "जल परिवहन",
+    "activity": "services",
+    "keywords": ["shipping", "boat", "ferry", "port service", "cargo ship", "inland waterway", "vessel", "launch"]
+  },
+  {
+    "code": "51",
+    "section": "H",
+    "en": "Air transport",
+    "hi": "वायु परिवहन",
+    "activity": "services",
+    "keywords": ["airline", "flight", "air cargo", "airport", "chartered aircraft", "helicopter", "aviation", "passenger air"]
+  },
+  {
+    "code": "52",
+    "section": "H",
+    "en": "Warehousing and support activities for transportation",
+    "hi": "गोदाम और परिवहन को सहायक गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["cold storage", "godown", "warehouse", "storage", "logistics", "container", "freight", "parcel"]
+  },
+  {
+    "code": "53",
+    "section": "H",
+    "en": "Postal and courier activities",
+    "hi": "डाक और कूरियर गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["courier", "post office", "parcel delivery", "express delivery", "mail", "delivery service", "home delivery", "dispatch"]
+  },
+  {
+    "code": "55",
+    "section": "I",
+    "en": "Accommodation",
+    "hi": "आवास सेवाएँ",
+    "activity": "services",
+    "keywords": ["hotel", "guest house", "lodge", "dharamshala", "paying guest", "resort", "homestay", "dormitory"]
+  },
+  {
+    "code": "56",
+    "section": "I",
+    "en": "Food and beverage service activities",
+    "hi": "भोजन और पेय सेवा गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["restaurant", "dhaba", "tiffin", "catering", "sweet shop", "juice", "chai stall", "canteen"]
+  },
+  {
+    "code": "58",
+    "section": "J",
+    "en": "Publishing activities",
+    "hi": "प्रकाशन गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["publishing", "publisher", "book publishing", "textbook", "magazine", "newspaper", "content", "e book"]
+  },
+  {
+    "code": "59",
+    "section": "J",
+    "en": "Motion pictures, video and television programme production, sound recording and publishing of music activities",
+    "hi": "फिल्म, वीडियो और टेलीविजन कार्यक्रम निर्माण, ध्वनि रिकॉर्डिंग और संगीत प्रकाशन",
+    "activity": "services",
+    "keywords": ["film", "video production", "sound recording", "music", "ad film", "production house", "dubbing", "animation"]
+  },
+  {
+    "code": "60",
+    "section": "J",
+    "en": "Programming and broadcasting activities",
+    "hi": "कार्यक्रम निर्माण और प्रसारण गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["radio", "tv channel", "broadcasting", "cable tv", "dth", "news channel", "satellite", "web radio"]
+  },
+  {
+    "code": "61",
+    "section": "J",
+    "en": "Telecommunications",
+    "hi": "दूरसंचार",
+    "activity": "services",
+    "keywords": ["telecom", "mobile tower", "internet service", "broadband", "telephone", "fiber optic", "call center", "sim"]
+  },
+  {
+    "code": "62",
+    "section": "J",
+    "en": "Computer programming, consultancy and related activities",
+    "hi": "कंप्यूटर प्रोग्रामिंग, परामर्श और संबंधित गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["software", "computer", "it services", "web design", "data entry", "app development", "coding", "tech support"]
+  },
+  {
+    "code": "63",
+    "section": "J",
+    "en": "Information service activities",
+    "hi": "सूचना सेवा गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["information service", "data center", "web portal", "hosting", "database", "news agency", "data analysis", "cloud"]
+  },
+  {
+    "code": "64",
+    "section": "K",
+    "en": "Financial service activities, except insurance and pension funding",
+    "hi": "वित्तीय सेवा गतिविधियाँ, बीमा और पेंशन कोष के अतिरिक्त",
+    "activity": "services",
+    "keywords": ["bank", "loan", "credit", "nbfc", "cooperative bank", "finance", "money lender", "lending"]
+  },
+  {
+    "code": "65",
+    "section": "K",
+    "en": "Insurance, reinsurance and pension funding, except compulsory social security",
+    "hi": "बीमा, पुनर्बीमा और पेंशन कोष, अनिवार्य सामाजिक सुरक्षा के अतिरिक्त",
+    "activity": "services",
+    "keywords": ["insurance", "policy", "pension", "reinsurance", "assurance", "health insurance", "annuity", "provident fund"]
+  },
+  {
+    "code": "66",
+    "section": "K",
+    "en": "Activities auxiliary to financial services and insurance activities",
+    "hi": "वित्तीय सेवाओं और बीमा गतिविधियों से संबंधित सहायक गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["insurance agent", "broker", "mutual fund", "financial advisory", "valuation", "loss adjuster", "recovery agent", "fund manager"]
+  },
+  {
+    "code": "68",
+    "section": "L",
+    "en": "Real estate activities",
+    "hi": "अचल संपत्ति गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["property", "rent", "builder", "broker", "land", "flat", "housing society", "lease"]
+  },
+  {
+    "code": "69",
+    "section": "M",
+    "en": "Legal and accounting activities",
+    "hi": "कानूनी और लेखा (अकाउंटिंग) गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["lawyer", "advocate", "ca", "accounts", "audit", "tax", "legal", "notary"]
+  },
+  {
+    "code": "70",
+    "section": "M",
+    "en": "Activities of head offices; management consultancy activities",
+    "hi": "मुख्यालयों की गतिविधियाँ; प्रबंधन परामर्श गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["management consultancy", "head office", "business strategy", "corporate office", "administration", "franchise", "business advisory", "hr services"]
+  },
+  {
+    "code": "71",
+    "section": "M",
+    "en": "Architectural and engineering activities; technical testing and analysis",
+    "hi": "वास्तुकला और अभियंत्रिकी गतिविधियाँ; तकनीकी परीक्षण और विश्लेषण",
+    "activity": "services",
+    "keywords": ["architect", "engineer", "building drawing", "survey", "testing lab", "structural design", "quantity survey", "3d design"]
+  },
+  {
+    "code": "72",
+    "section": "M",
+    "en": "Scientific research and development",
+    "hi": "वैज्ञानिक अनुसंधान और विकास",
+    "activity": "services",
+    "keywords": ["research", "laboratory", "testing lab", "scientific research", "drug trial", "innovation", "data analysis", "r and d"]
+  },
+  {
+    "code": "73",
+    "section": "M",
+    "en": "Advertising and market research",
+    "hi": "विज्ञापन और बाजार अनुसंधान",
+    "activity": "services",
+    "keywords": ["advertising", "ad agency", "marketing", "media", "billboard", "market research", "branding", "digital marketing"]
+  },
+  {
+    "code": "74",
+    "section": "M",
+    "en": "Other professional, scientific and technical activities",
+    "hi": "अन्य व्यावसायिक, वैज्ञानिक और तकनीकी गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["photography", "graphic design", "interior design", "translation", "consultant", "copywriter", "actuary", "mediator"]
+  },
+  {
+    "code": "75",
+    "section": "M",
+    "en": "Veterinary activities",
+    "hi": "पशु चिकित्सा (वेटरनरी) गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["vet", "veterinary", "animal clinic", "pet", "cattle treatment", "animal hospital", "pet care", "artificial insemination"]
+  },
+  {
+    "code": "77",
+    "section": "N",
+    "en": "Rental and leasing activities",
+    "hi": "किराया और पट्टा (लीजिंग) गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["rental", "leasing", "equipment on hire", "car rental", "machinery rent", "furniture rental", "scaffolding rent", "party items"]
+  },
+  {
+    "code": "78",
+    "section": "N",
+    "en": "Employment activities",
+    "hi": "रोजगार संबंधी गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["recruitment", "staffing", "placement", "manpower supply", "job portal", "labour contractor", "temp staff", "hr consultancy"]
+  },
+  {
+    "code": "79",
+    "section": "N",
+    "en": "Travel agency, tour operator and other reservation service and related activities",
+    "hi": "यात्रा एजेंसी, टूर ऑपरेटर और अन्य आरक्षण सेवाएँ तथा संबंधित गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["travel", "tour", "ticket booking", "visa", "package tour", "tour operator", "booking", "holiday"]
+  },
+  {
+    "code": "80",
+    "section": "N",
+    "en": "Security and investigation activities",
+    "hi": "सुरक्षा और अन्वेषण गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["security guard", "cctv", "detective", "watchman", "alarm system", "guarding", "investigation", "cash transit"]
+  },
+  {
+    "code": "81",
+    "section": "N",
+    "en": "Services to buildings and landscape activities",
+    "hi": "भवनों और भू-दृश्य (लैंडस्केप) संबंधी सेवाएँ",
+    "activity": "services",
+    "keywords": ["housekeeping", "cleaning", "gardening", "maintenance", "pest control", "facility management", "lawn cutting", "sweeping"]
+  },
+  {
+    "code": "82",
+    "section": "N",
+    "en": "Office administrative, office support and other business support activities",
+    "hi": "कार्यालय प्रशासनिक, कार्यालय सहायक और अन्य व्यावसायिक सहायता गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["office support", "typing", "call center", "document", "answering service", "event management", "exhibition", "business support"]
+  },
+  {
+    "code": "84",
+    "section": "O",
+    "en": "Public administration and defence; compulsory social security",
+    "hi": "सार्वजनिक प्रशासन और रक्षा; अनिवार्य सामाजिक सुरक्षा",
+    "activity": "services",
+    "keywords": ["government", "police", "defence", "municipality", "public administration", "panchayat", "tax collection", "registry"]
+  },
+  {
+    "code": "85",
+    "section": "P",
+    "en": "Education",
+    "hi": "शिक्षा",
+    "activity": "services",
+    "keywords": ["school", "coaching", "tuition", "institute", "training", "college", "computer class", "language class"]
+  },
+  {
+    "code": "86",
+    "section": "Q",
+    "en": "Human health activities",
+    "hi": "मानव स्वास्थ्य गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["clinic", "medical", "doctor", "pharmacy", "diagnostic", "hospital", "pathology", "nursing home"]
+  },
+  {
+    "code": "87",
+    "section": "Q",
+    "en": "Residential care activities",
+    "hi": "आवासीय देखभाल गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["old age home", "care home", "orphanage", "disability home", "de addiction", "nursing home", "children home", "women home"]
+  },
+  {
+    "code": "88",
+    "section": "Q",
+    "en": "Social work activities without accommodation",
+    "hi": "आवास के बिना सामाजिक कल्याण गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["social work", "day care", "creche", "counselling", "welfare", "family support", "child care", "disabled aid"]
+  },
+  {
+    "code": "90",
+    "section": "R",
+    "en": "Creative, arts and entertainment activities",
+    "hi": "रचनात्मक, कला और मनोरंजन गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["event organizing", "theatre", "dance", "musician", "painting", "singer", "artist", "cultural program"]
+  },
+  {
+    "code": "91",
+    "section": "R",
+    "en": "Libraries, archives, museums and other cultural activities",
+    "hi": "पुस्तकालय, अभिलेखागार, संग्रहालय और अन्य सांस्कृतिक गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["library", "museum", "archive", "art gallery", "heritage site", "records center", "cultural center", "reading room"]
+  },
+  {
+    "code": "92",
+    "section": "R",
+    "en": "Gambling and betting activities",
+    "hi": "जुआ और सट्टेबाजी गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["betting", "lottery", "casino", "gaming", "bookmaker", "horse racing", "snooker", "wager"]
+  },
+  {
+    "code": "93",
+    "section": "R",
+    "en": "Sports activities and amusement and recreation activities",
+    "hi": "खेल गतिविधियाँ तथा मनोरंजन और अवकाश गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["gym", "sports", "yoga", "club", "swimming pool", "fitness", "park", "cricket"]
+  },
+  {
+    "code": "94",
+    "section": "S",
+    "en": "Activities of membership organisations",
+    "hi": "सदस्यता संगठनों की गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["association", "trade union", "chamber of commerce", "trust", "society", "ngo", "professional body", "cooperative society"]
+  },
+  {
+    "code": "95",
+    "section": "S",
+    "en": "Repair of computers and personal and household goods",
+    "hi": "कंप्यूटर और व्यक्तिगत तथा घरेलू सामान की मरम्मत",
+    "activity": "services",
+    "keywords": ["mobile repair", "repair", "watch repair", "shoe repair", "fixing", "computer repair", "cycle repair", "locksmith"]
+  },
+  {
+    "code": "96",
+    "section": "S",
+    "en": "Other personal service activities",
+    "hi": "अन्य व्यक्तिगत सेवाएँ",
+    "activity": "services",
+    "keywords": ["beautician", "salon", "barber", "laundry", "dhobi", "tailor", "bathing", "haircut"]
+  },
+  {
+    "code": "97",
+    "section": "T",
+    "en": "Activities of households as employers of domestic personnel",
+    "hi": "घरेलू स्टाफ के नियोक्ता के रूप में घरों की गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["maid", "domestic help", "cook", "driver", "household staff", "nanny", "gardener", "caregiver"]
+  },
+  {
+    "code": "98",
+    "section": "T",
+    "en": "Undifferentiated goods- and services-producing activities of private households for own use",
+    "hi": "स्वयं के उपयोग हेतु निजी घरों द्वारा अप्रभेद्य वस्तु एवं सेवा उत्पादन गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["home production", "cottage industry", "homework", "own use", "handicraft", "home based work", "domestic production"]
+  },
+  {
+    "code": "99",
+    "section": "U",
+    "en": "Activities of extraterritorial organisations and bodies",
+    "hi": "क्षेत्रेतर संगठनों एवं निकायों की गतिविधियाँ",
+    "activity": "services",
+    "keywords": ["embassy", "consulate", "un office", "international organization", "diplomatic", "ngo", "mission", "aid agency"]
+  }
+]

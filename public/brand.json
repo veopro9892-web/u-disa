@@ -1,0 +1,28 @@
+{
+  "name": "U-Disa",
+  "retiredNames": [
+    "U-Disha"
+  ],
+  "colors": {
+    "navy": "#04346c",
+    "orange": "#fc5c0c",
+    "orangeDeep": "#ec3000",
+    "navyInk": "#00285a",
+    "paper": "#fefefc"
+  },
+  "markBox": {
+    "top": 120,
+    "bottom": 712,
+    "left": 173,
+    "right": 870
+  },
+  "wordmarkDivider": {
+    "len": 31,
+    "from": 713,
+    "to": 743
+  },
+  "sourcePixels": {
+    "width": 1024,
+    "height": 1024
+  }
+}
