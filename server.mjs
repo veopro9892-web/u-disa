@@ -11,7 +11,7 @@ import { openDb } from './src/db.mjs';
 import { createApi } from './src/api.mjs';
 import { loadSchemes } from './src/schemes.mjs';
 
-const ROOT = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = process.env.VERCEL ? process.cwd() : path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC = path.join(ROOT, 'public');
 const DATA = path.join(ROOT, 'data');
 const RUNTIME = path.join(DATA, 'runtime.json');
