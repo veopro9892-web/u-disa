@@ -331,3 +331,14 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
     process.exit(1);
   });
 }
+
+let vercelInstance = null;
+
+export default async function handler(req, res) {
+  if (!vercelInstance) {
+    const dbFile = process.env.VERCEL ? path.join('/tmp', 'udisa.db') : path.join(DATA, 'udisa.db');
+    vercelInstance = createServer({ dbFile, quiet: true });
+  }
+  return vercelInstance.handler(req, res);
+}
+
